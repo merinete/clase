@@ -1,1 +1,36 @@
-rama para modificaciones
+olc::utils::Animate2D::FrameSequence anim_fs_walk_s;
+		anim_fs_walk_s.AddFrame({ &gfxAll, {{0,0}, {26,36}} });
+		anim_fs_walk_s.AddFrame({ &gfxAll, {{26,0}, {26,36}} });
+		anim_fs_walk_s.AddFrame({ &gfxAll, {{52,0}, {26,36}} });
+
+		olc::utils::Animate2D::FrameSequence anim_fs_walk_w;
+		anim_fs_walk_w.AddFrame({ &gfxAll, {{ 0,36}, {26,36}} });
+		anim_fs_walk_w.AddFrame({ &gfxAll, {{26,36}, {26,36}} });
+		anim_fs_walk_w.AddFrame({ &gfxAll, {{52,36}, {26,36}} });
+
+		olc::utils::Animate2D::FrameSequence anim_fs_walk_e;
+		anim_fs_walk_e.AddFrame({ &gfxAll, {{ 0,72}, {26,36}} });
+		anim_fs_walk_e.AddFrame({ &gfxAll, {{26,72}, {26,36}} });
+		anim_fs_walk_e.AddFrame({ &gfxAll, {{52,72}, {26,36}} });
+
+		olc::utils::Animate2D::FrameSequence anim_fs_walk_n;
+		anim_fs_walk_n.AddFrame({ &gfxAll, {{ 0,108}, {26,36}} });
+		anim_fs_walk_n.AddFrame({ &gfxAll, {{26,108}, {26,36}} });
+		anim_fs_walk_n.AddFrame({ &gfxAll, {{52,108}, {26,36}} });
+
+		olc::utils::Animate2D::FrameSequence anim_fs_yes;
+		anim_fs_yes.AddFrame({ &gfxAll, {{ 0,144}, {26,36}} });
+		anim_fs_yes.AddFrame({ &gfxAll, {{26,144}, {26,36}} });
+		anim_fs_yes.AddFrame({ &gfxAll, {{52,144}, {26,36}} });
+
+		olc::utils::Animate2D::FrameSequence anim_fs_no;
+		anim_fs_no.AddFrame({ &gfxAll, {{ 0,180}, {26,36}} });
+		anim_fs_no.AddFrame({ &gfxAll, {{26,180}, {26,36}} });
+		anim_fs_no.AddFrame({ &gfxAll, {{52,180}, {26,36}} });
+
+		olc::utils::Animate2D::FrameSequence anim_fs_laugh;
+		anim_fs_laugh.AddFrame({ &gfxAll, {{ 0,216}, {26,36}} });
+		anim_fs_laugh.AddFrame({ &gfxAll, {{26,216}, {26,36}} });
+		anim_fs_laugh.AddFrame({ &gfxAll, {{52,216}, {27,37}} });
+
+		olc::utils::Animate2D::FrameSequence anim_fs_cheer;rama para modificaciones

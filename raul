@@ -1,5 +1,5 @@
 olc::utils::Animate2D::FrameSequence anim_fs_walk_s;
-		anim_fs_walk_s.AddFrame({ &gfxAll, {{0,0}, {26,36}} });RAUL
+		anim_fs_walk_s.AddFrame({ &gfxAll, {{0,0}, {26,36}} });RAULSANCHO
 		anim_fs_walk_s.AddFrame({ &gfxAll, {{26,0}, {26,36}} });
 		anim_fs_walk_s.AddFrame({ &gfxAll, {{52,0}, {26,36}} });
 

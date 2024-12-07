@@ -32,5 +32,5 @@ olc::utils::Animate2D::FrameSequence anim_fs_walk_s;
 		anim_fs_laugh.AddFrame({ &gfxAll, {{ 0,216}, {26,36}} });
 		anim_fs_laugh.AddFrame({ &gfxAll, {{26,216}, {26,36}} });
 		anim_fs_laugh.AddFrame({ &gfxAll, {{52,200}, {27,37}} });
-
+nuevo
 		olc::utils::Animate2D::FrameSequence anim_fs_cheer;rama para modificaciones
